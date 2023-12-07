@@ -1,0 +1,202 @@
+.body1{
+    display: flex;
+    height: 60rem;
+    max-width: 100%;
+    
+}
+
+.box{
+ /* Distribute space equally among the three boxes */
+  border: 0px solid #000; /* Just for visualization */
+  display: flex;
+
+}
+
+.firstclass{
+    background-color: red;
+    flex: 0 0 23%;
+}
+
+.secondclass{
+    background:linear-gradient(90deg,#ffffff,grey,grey ,#ffffff);
+    flex: 0 0 54%;
+}
+
+
+
+/* Styles for form container */
+.secondclass.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: left;
+  height: 100%;
+}
+
+.h2-dd{
+    width: 100%;
+    height: 6rem;
+    position: inherit;
+    background-color: #000;
+    margin-top: -39px;
+
+
+
+
+}
+/* Heading style */
+.secondclass.box h1 {
+ /* Remove top margin */
+ padding-bottom: 20px;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: white;
+  border-bottom:1px solid white;
+  letter-spacing: 8px;
+  word-spacing: 8px;
+  text-align: center;
+  
+}
+
+
+/* Styles for form */
+.secondclass.box form {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.secondclass.box form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.secondclass.box form input,
+.secondclass.box form select,
+.secondclass.box form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.secondclass.box form button {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.secondclass.box form button:hover {
+  background-color: #0056b3;
+}
+.check-me{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.secondclass.box form input[type='checkbox'] {
+    width: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.secondclass.box form label[for='consent'] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0; /* Ensure no additional margin */
+  font-size: 14px;
+  color: #555;
+}
+
+/* Additional styles for better readability */
+.secondclass.box form textarea {
+  resize: vertical;
+}
+
+.secondclass.box form label,
+.secondclass.box form button {
+  transition: transform 0.2s ease;
+}
+
+.secondclass.box form label:hover,
+.secondclass.box form button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.thirdclass{
+    display: flex;
+    position:sticky;
+    height: 100%;
+    flex: 0 0 23%;
+    flex-direction: column;
+
+}
+
+
+.notice-section {
+    position: inherit;
+    height: 50%;
+    background-color:white;
+    padding: 20px;
+    border-radius:0  0  30px 30px ;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    overflow: auto;
+    scroll-behavior: smooth;
+
+}
+
+.hl{
+    width: 100%;
+    position:sticky;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 0px 0px 0 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+      border-bottom: 1px solid black;
+
+
+}
+.hl h1{
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.notice-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notice-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tl{
+
+    border-bottom: 1px solid black;
+}

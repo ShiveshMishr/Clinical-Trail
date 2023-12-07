@@ -1,0 +1,158 @@
+.fullnav{
+
+        height: 10rem;
+        width: 100%;
+        background-color:rgb(230, 200, 6);
+}
+
+
+.section1{
+    flex-flow: row wrap;
+    height: calc(10rem - 45%);
+    background:linear-gradient(45deg, #ffffff,#F2FAE9,#009245 );
+    display: flex;
+    align-items: center;
+
+}
+.splititem{
+    flex: 1;
+}
+
+.weblogoimg{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top:0;
+    bottom:0;
+    margin-left: 8%;
+    cursor: pointer;
+}
+.loginbtn{
+    margin-left: 65%;
+    height: 50px;
+    width: 110px;
+    font-size: 1.3rem;
+    font-weight: 560;
+    background-color: transparent;
+    color: black;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+
+.section2{
+    height: calc(10rem - 55%);
+    display: flex;
+    background:linear-gradient(45deg,#ffffff,grey,grey ,#ffffff);
+
+}
+.sidelogo {
+    flex: 0 0 23%;
+    text-align: center;
+    
+}
+.sidelogo h1{
+    letter-spacing: 10px;
+    text-align: center;
+
+
+
+}
+
+.nav-itm{
+    display: flex;
+    flex: 0 0 54%;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+
+.itmlist{
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.itmlist:hover {
+  transform: scale(1.2); /* Scale the text when hovered */
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 0px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: 1px solid black;
+
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration:none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btnsearch{
+    height: 40px;
+    display: flex;
+    flex: 0 0 20%;
+    justify-content:center ;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 40px;
+
+}
+.btnsearch button{
+    border-radius: 0px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.23rem;
+    cursor: pointer;
+    
+}
+
+
+.btnsearch input{
+    border-radius: 2px solid black;
+    
+}
+
+
+
