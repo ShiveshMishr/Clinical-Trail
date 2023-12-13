@@ -1,0 +1,162 @@
+/* fotter.css */
+
+/* Footer container */
+.site-footer {
+ background:linear-gradient(180deg,white,#3aa45b);
+  color: #fff;
+  padding-top: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Columns within the footer */
+.site-footer .column {
+  width: 25%;
+  padding: 0 20px;
+  text-align: left;
+}
+
+/* Column headings */
+.site-footer h3 {
+  color: #3aa45b;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.site-footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Links in the footer */
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #3aa45b;
+}
+
+/* Address styles */
+.site-footer address {
+  font-style: normal;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .icon:hover {
+  color: #ffcc00;
+}
+
+/* Site information */
+.site-info {
+  margin-top: 30px;
+}
+
+.site-info p {
+  font-size: 14px;
+}
+
+
+
+
+
+.col-md{
+text-align: center;
+
+}
+.col-md h3{
+    font-size: 2.9rem;
+    margin-bottom: -15px;
+    margin-bottom: 5px;
+    color: #3aa45b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col-md p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(52, 52, 52);
+}
+
+.col-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.col-md-3 h3{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;  
+    color: black;
+
+}
+
+h3::after{
+content: '';
+  position: absolute;
+  bottom: -2px; /* Position the underline below the text */
+  left: 0;
+  width: 0; /* Initially, the underline has zero width */
+  height: 2px; /* Height of the underline */
+  background-color:  #5dae73; /* Color of the underline */
+  transition: width 0.3s ease; 
+
+}
+h3:hover::after{
+    width: 100%;
+}
+.col-md-3 li{
+    list-style: none;
+    margin: 15px;
+    }
+.col-md-3 ul{
+    margin: 12px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-icons a{
+    padding: 15px;
+
+}
+
+.site-info p {
+text-align: center;
+ background:linear-gradient(180deg,white,black,white );
+
+font-size: 1.0rem;
+margin-bottom: 0px;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: -30px;
+    color: black;
+}
+

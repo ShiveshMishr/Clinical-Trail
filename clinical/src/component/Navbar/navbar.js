@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className='splititem' ><button className='loginbtn'>LOG IN </button></div>
         </div>
 
-        <div className='section2 '>
+        <div className='section2 ' >
 
             <div className='sidelogo'>
               <h1>Clinic Trail </h1>
